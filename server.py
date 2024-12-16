@@ -132,12 +132,9 @@ def stitch_images(images):
     logger.info("Stitching completed successfully.")
     return pano, status
 
-@app.route('/test', methods=['GET'])
-def test_api():
-    return jsonify({
-        "message": "Hello, this is your test API!",
-        "status": "success"
-    }), 200
+@app.route("/")
+def hello_world():
+    return jsonify({"message": "Hello, Vercel!"})
 
 @app.route('/stitch', methods=['POST'])
 def stitch():
