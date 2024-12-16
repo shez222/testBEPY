@@ -1,0 +1,373 @@
+2024-12-16 21:51:00,896 [INFO] Created panorama directory at panoramas
+2024-12-16 21:51:00,898 [INFO] Starting Flask server.
+2024-12-16 21:51:00,948 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2024-12-16 21:51:00,948 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 21:51:00,951 [INFO]  * Restarting with stat
+2024-12-16 21:51:01,408 [INFO] Starting Flask server.
+2024-12-16 21:51:01,429 [WARNING]  * Debugger is active!
+2024-12-16 21:51:01,433 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 21:51:09,273 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:51:09,278 [INFO] Number of images received: 4
+2024-12-16 21:51:09,278 [INFO] Processing image 1: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:51:09,299 [INFO] Image decoded successfully.
+2024-12-16 21:51:09,299 [INFO] Processing image 2: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:51:09,319 [INFO] Image decoded successfully.
+2024-12-16 21:51:09,320 [INFO] Processing image 3: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:51:09,339 [INFO] Image decoded successfully.
+2024-12-16 21:51:09,340 [INFO] Processing image 4: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:51:09,361 [INFO] Image decoded successfully.
+2024-12-16 21:51:09,361 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:51:09,362 [INFO] Starting stitching process.
+2024-12-16 21:51:11,707 [INFO] Stitching completed successfully.
+2024-12-16 21:51:11,780 [INFO] Panorama image encoded successfully.
+2024-12-16 21:51:11,781 [INFO] Panorama saved to panoramas\panorama_20241216_215111.jpg
+2024-12-16 21:51:11,782 [INFO] Sending stitched panorama back to client.
+2024-12-16 21:51:11,782 [ERROR] An unexpected error occurred during stitching.
+Traceback (most recent call last):
+  File "C:\Users\SHEHROZ\Desktop\New folder (2)\server.py", line 142, in stitch
+    return send_file(
+           ^^^^^^^^^^
+TypeError: send_file() got an unexpected keyword argument 'attachment_filename'
+2024-12-16 21:51:11,791 [INFO] 127.0.0.1 - - [16/Dec/2024 21:51:11] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:52:36,251 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:52:36,289 [INFO] Number of images received: 23
+2024-12-16 21:52:36,289 [INFO] Processing image 1: WIN_20241207_05_26_30_Pro.jpg
+2024-12-16 21:52:36,308 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,308 [INFO] Processing image 2: WIN_20241207_05_26_32_Pro.jpg
+2024-12-16 21:52:36,327 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,328 [INFO] Processing image 3: WIN_20241207_05_26_34_Pro.jpg
+2024-12-16 21:52:36,347 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,348 [INFO] Processing image 4: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:52:36,368 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,369 [INFO] Processing image 5: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:52:36,389 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,389 [INFO] Processing image 6: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:52:36,410 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,410 [INFO] Processing image 7: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:52:36,429 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,429 [INFO] Processing image 8: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:52:36,450 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,451 [INFO] Processing image 9: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:52:36,469 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,470 [INFO] Processing image 10: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:52:36,490 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,490 [INFO] Processing image 11: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:52:36,511 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,512 [INFO] Processing image 12: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:52:36,532 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,533 [INFO] Processing image 13: WIN_20241207_05_27_04_Pro.jpg
+2024-12-16 21:52:36,555 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,555 [INFO] Processing image 14: WIN_20241207_05_27_06_Pro (2).jpg
+2024-12-16 21:52:36,576 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,577 [INFO] Processing image 15: WIN_20241207_05_27_06_Pro.jpg
+2024-12-16 21:52:36,597 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,598 [INFO] Processing image 16: WIN_20241207_05_27_08_Pro.jpg
+2024-12-16 21:52:36,619 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,619 [INFO] Processing image 17: WIN_20241207_05_27_11_Pro.jpg
+2024-12-16 21:52:36,641 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,641 [INFO] Processing image 18: WIN_20241207_05_27_15_Pro.jpg
+2024-12-16 21:52:36,662 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,662 [INFO] Processing image 19: WIN_20241207_05_27_17_Pro.jpg
+2024-12-16 21:52:36,683 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,683 [INFO] Processing image 20: WIN_20241207_05_27_22_Pro.jpg
+2024-12-16 21:52:36,708 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,709 [INFO] Processing image 21: WIN_20241207_05_27_25_Pro.jpg
+2024-12-16 21:52:36,733 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,733 [INFO] Processing image 22: WIN_20241207_05_27_27_Pro.jpg
+2024-12-16 21:52:36,753 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,755 [INFO] Processing image 23: WIN_20241207_05_27_28_Pro.jpg
+2024-12-16 21:52:36,774 [INFO] Image decoded successfully.
+2024-12-16 21:52:36,775 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:52:36,775 [INFO] Starting stitching process.
+2024-12-16 21:53:41,485 [ERROR] Stitching failed with status 3.
+2024-12-16 21:53:41,497 [INFO] 127.0.0.1 - - [16/Dec/2024 21:53:41] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:54:47,743 [INFO] Starting Flask server.
+2024-12-16 21:54:47,775 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2024-12-16 21:54:47,775 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 21:54:47,776 [INFO]  * Restarting with stat
+2024-12-16 21:54:48,181 [INFO] Starting Flask server.
+2024-12-16 21:54:48,198 [WARNING]  * Debugger is active!
+2024-12-16 21:54:48,202 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 21:54:59,889 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:54:59,917 [INFO] Number of images received: 23
+2024-12-16 21:54:59,918 [INFO] Processing image 1: WIN_20241207_05_26_30_Pro.jpg
+2024-12-16 21:54:59,938 [INFO] Image decoded successfully.
+2024-12-16 21:54:59,938 [INFO] Processing image 2: WIN_20241207_05_26_32_Pro.jpg
+2024-12-16 21:54:59,967 [INFO] Image decoded successfully.
+2024-12-16 21:54:59,968 [INFO] Processing image 3: WIN_20241207_05_26_34_Pro.jpg
+2024-12-16 21:54:59,988 [INFO] Image decoded successfully.
+2024-12-16 21:54:59,990 [INFO] Processing image 4: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:55:00,014 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,014 [INFO] Processing image 5: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:55:00,039 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,040 [INFO] Processing image 6: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:55:00,057 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,058 [INFO] Processing image 7: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:55:00,078 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,078 [INFO] Processing image 8: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:55:00,098 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,099 [INFO] Processing image 9: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:55:00,117 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,117 [INFO] Processing image 10: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:55:00,135 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,136 [INFO] Processing image 11: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:55:00,155 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,156 [INFO] Processing image 12: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:55:00,176 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,176 [INFO] Processing image 13: WIN_20241207_05_27_04_Pro.jpg
+2024-12-16 21:55:00,200 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,200 [INFO] Processing image 14: WIN_20241207_05_27_06_Pro (2).jpg
+2024-12-16 21:55:00,224 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,224 [INFO] Processing image 15: WIN_20241207_05_27_06_Pro.jpg
+2024-12-16 21:55:00,247 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,247 [INFO] Processing image 16: WIN_20241207_05_27_08_Pro.jpg
+2024-12-16 21:55:00,273 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,274 [INFO] Processing image 17: WIN_20241207_05_27_11_Pro.jpg
+2024-12-16 21:55:00,310 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,310 [INFO] Processing image 18: WIN_20241207_05_27_15_Pro.jpg
+2024-12-16 21:55:00,336 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,336 [INFO] Processing image 19: WIN_20241207_05_27_17_Pro.jpg
+2024-12-16 21:55:00,363 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,364 [INFO] Processing image 20: WIN_20241207_05_27_22_Pro.jpg
+2024-12-16 21:55:00,388 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,389 [INFO] Processing image 21: WIN_20241207_05_27_25_Pro.jpg
+2024-12-16 21:55:00,412 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,412 [INFO] Processing image 22: WIN_20241207_05_27_27_Pro.jpg
+2024-12-16 21:55:00,433 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,434 [INFO] Processing image 23: WIN_20241207_05_27_28_Pro.jpg
+2024-12-16 21:55:00,453 [INFO] Image decoded successfully.
+2024-12-16 21:55:00,454 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:55:00,454 [INFO] Starting stitching process.
+2024-12-16 21:56:07,493 [ERROR] Stitching failed with status 3.
+2024-12-16 21:56:07,510 [INFO] 127.0.0.1 - - [16/Dec/2024 21:56:07] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:56:58,626 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:56:58,659 [INFO] Number of images received: 23
+2024-12-16 21:56:58,659 [INFO] Processing image 1: WIN_20241207_05_26_30_Pro.jpg
+2024-12-16 21:56:58,677 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,678 [INFO] Processing image 2: WIN_20241207_05_26_32_Pro.jpg
+2024-12-16 21:56:58,696 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,697 [INFO] Processing image 3: WIN_20241207_05_26_34_Pro.jpg
+2024-12-16 21:56:58,714 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,715 [INFO] Processing image 4: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:56:58,732 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,733 [INFO] Processing image 5: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:56:58,751 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,752 [INFO] Processing image 6: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:56:58,769 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,769 [INFO] Processing image 7: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:56:58,788 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,789 [INFO] Processing image 8: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:56:58,807 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,808 [INFO] Processing image 9: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:56:58,824 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,826 [INFO] Processing image 10: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:56:58,843 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,844 [INFO] Processing image 11: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:56:58,862 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,862 [INFO] Processing image 12: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:56:58,881 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,882 [INFO] Processing image 13: WIN_20241207_05_27_04_Pro.jpg
+2024-12-16 21:56:58,901 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,902 [INFO] Processing image 14: WIN_20241207_05_27_06_Pro (2).jpg
+2024-12-16 21:56:58,921 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,921 [INFO] Processing image 15: WIN_20241207_05_27_06_Pro.jpg
+2024-12-16 21:56:58,941 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,941 [INFO] Processing image 16: WIN_20241207_05_27_08_Pro.jpg
+2024-12-16 21:56:58,961 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,962 [INFO] Processing image 17: WIN_20241207_05_27_11_Pro.jpg
+2024-12-16 21:56:58,982 [INFO] Image decoded successfully.
+2024-12-16 21:56:58,983 [INFO] Processing image 18: WIN_20241207_05_27_15_Pro.jpg
+2024-12-16 21:56:59,004 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,005 [INFO] Processing image 19: WIN_20241207_05_27_17_Pro.jpg
+2024-12-16 21:56:59,026 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,026 [INFO] Processing image 20: WIN_20241207_05_27_22_Pro.jpg
+2024-12-16 21:56:59,050 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,051 [INFO] Processing image 21: WIN_20241207_05_27_25_Pro.jpg
+2024-12-16 21:56:59,073 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,073 [INFO] Processing image 22: WIN_20241207_05_27_27_Pro.jpg
+2024-12-16 21:56:59,094 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,095 [INFO] Processing image 23: WIN_20241207_05_27_28_Pro.jpg
+2024-12-16 21:56:59,114 [INFO] Image decoded successfully.
+2024-12-16 21:56:59,114 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:56:59,114 [INFO] Starting stitching process.
+2024-12-16 21:57:08,922 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:57:08,935 [INFO] Number of images received: 8
+2024-12-16 21:57:08,935 [INFO] Processing image 1: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:57:08,959 [INFO] Image decoded successfully.
+2024-12-16 21:57:08,959 [INFO] Processing image 2: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:57:08,980 [INFO] Image decoded successfully.
+2024-12-16 21:57:08,981 [INFO] Processing image 3: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:57:09,003 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,003 [INFO] Processing image 4: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:57:09,028 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,029 [INFO] Processing image 5: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:57:09,051 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,051 [INFO] Processing image 6: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:57:09,077 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,077 [INFO] Processing image 7: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:57:09,101 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,101 [INFO] Processing image 8: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:57:09,124 [INFO] Image decoded successfully.
+2024-12-16 21:57:09,124 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:57:09,124 [INFO] Starting stitching process.
+2024-12-16 21:57:19,686 [INFO] Stitching completed successfully.
+2024-12-16 21:57:19,821 [INFO] Panorama image encoded successfully.
+2024-12-16 21:57:19,822 [INFO] Panorama saved to panoramas\panorama_20241216_215719.jpg
+2024-12-16 21:57:19,822 [INFO] Sending stitched panorama back to client.
+2024-12-16 21:57:19,823 [ERROR] An unexpected error occurred during stitching.
+Traceback (most recent call last):
+  File "C:\Users\SHEHROZ\Desktop\New folder (2)\server.py", line 142, in stitch
+    return send_file(
+           ^^^^^^^^^^
+TypeError: send_file() got an unexpected keyword argument 'attachment_filename'
+2024-12-16 21:57:19,837 [INFO] 127.0.0.1 - - [16/Dec/2024 21:57:19] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:57:53,298 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:57:53,317 [INFO] Number of images received: 15
+2024-12-16 21:57:53,318 [INFO] Processing image 1: WIN_20241207_05_26_30_Pro.jpg
+2024-12-16 21:57:53,343 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,343 [INFO] Processing image 2: WIN_20241207_05_26_32_Pro.jpg
+2024-12-16 21:57:53,369 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,370 [INFO] Processing image 3: WIN_20241207_05_26_34_Pro.jpg
+2024-12-16 21:57:53,393 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,394 [INFO] Processing image 4: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:57:53,419 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,419 [INFO] Processing image 5: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:57:53,443 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,444 [INFO] Processing image 6: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:57:53,462 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,462 [INFO] Processing image 7: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:57:53,487 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,488 [INFO] Processing image 8: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:57:53,507 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,508 [INFO] Processing image 9: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:57:53,527 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,528 [INFO] Processing image 10: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:57:53,554 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,554 [INFO] Processing image 11: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:57:53,576 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,576 [INFO] Processing image 12: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:57:53,597 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,597 [INFO] Processing image 13: WIN_20241207_05_27_04_Pro.jpg
+2024-12-16 21:57:53,618 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,618 [INFO] Processing image 14: WIN_20241207_05_27_06_Pro (2).jpg
+2024-12-16 21:57:53,648 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,649 [INFO] Processing image 15: WIN_20241207_05_27_06_Pro.jpg
+2024-12-16 21:57:53,671 [INFO] Image decoded successfully.
+2024-12-16 21:57:53,672 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:57:53,672 [INFO] Starting stitching process.
+2024-12-16 21:58:08,897 [ERROR] Stitching failed with status 3.
+2024-12-16 21:58:08,912 [INFO] 127.0.0.1 - - [16/Dec/2024 21:58:08] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:58:17,035 [INFO] Stitching completed successfully.
+2024-12-16 21:58:17,180 [INFO] Panorama image encoded successfully.
+2024-12-16 21:58:17,181 [INFO] Panorama saved to panoramas\panorama_20241216_215817.jpg
+2024-12-16 21:58:17,183 [INFO] Sending stitched panorama back to client.
+2024-12-16 21:58:17,183 [ERROR] An unexpected error occurred during stitching.
+Traceback (most recent call last):
+  File "C:\Users\SHEHROZ\Desktop\New folder (2)\server.py", line 142, in stitch
+    return send_file(
+           ^^^^^^^^^^
+TypeError: send_file() got an unexpected keyword argument 'attachment_filename'
+2024-12-16 21:58:17,199 [INFO] 127.0.0.1 - - [16/Dec/2024 21:58:17] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 21:58:35,938 [INFO] Received a request to /stitch endpoint.
+2024-12-16 21:58:35,968 [INFO] Number of images received: 23
+2024-12-16 21:58:35,968 [INFO] Processing image 1: WIN_20241207_05_26_30_Pro.jpg
+2024-12-16 21:58:35,987 [INFO] Image decoded successfully.
+2024-12-16 21:58:35,987 [INFO] Processing image 2: WIN_20241207_05_26_32_Pro.jpg
+2024-12-16 21:58:36,008 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,008 [INFO] Processing image 3: WIN_20241207_05_26_34_Pro.jpg
+2024-12-16 21:58:36,030 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,030 [INFO] Processing image 4: WIN_20241207_05_26_37_Pro.jpg
+2024-12-16 21:58:36,049 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,050 [INFO] Processing image 5: WIN_20241207_05_26_39_Pro.jpg
+2024-12-16 21:58:36,069 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,069 [INFO] Processing image 6: WIN_20241207_05_26_43_Pro.jpg
+2024-12-16 21:58:36,089 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,090 [INFO] Processing image 7: WIN_20241207_05_26_46_Pro.jpg
+2024-12-16 21:58:36,109 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,110 [INFO] Processing image 8: WIN_20241207_05_26_51_Pro.jpg
+2024-12-16 21:58:36,128 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,129 [INFO] Processing image 9: WIN_20241207_05_26_53_Pro.jpg
+2024-12-16 21:58:36,147 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,148 [INFO] Processing image 10: WIN_20241207_05_26_55_Pro.jpg
+2024-12-16 21:58:36,166 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,167 [INFO] Processing image 11: WIN_20241207_05_26_59_Pro.jpg
+2024-12-16 21:58:36,187 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,187 [INFO] Processing image 12: WIN_20241207_05_27_02_Pro.jpg
+2024-12-16 21:58:36,207 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,208 [INFO] Processing image 13: WIN_20241207_05_27_04_Pro.jpg
+2024-12-16 21:58:36,228 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,229 [INFO] Processing image 14: WIN_20241207_05_27_06_Pro (2).jpg
+2024-12-16 21:58:36,249 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,249 [INFO] Processing image 15: WIN_20241207_05_27_06_Pro.jpg
+2024-12-16 21:58:36,270 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,271 [INFO] Processing image 16: WIN_20241207_05_27_08_Pro.jpg
+2024-12-16 21:58:36,293 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,293 [INFO] Processing image 17: WIN_20241207_05_27_11_Pro.jpg
+2024-12-16 21:58:36,313 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,314 [INFO] Processing image 18: WIN_20241207_05_27_15_Pro.jpg
+2024-12-16 21:58:36,335 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,335 [INFO] Processing image 19: WIN_20241207_05_27_17_Pro.jpg
+2024-12-16 21:58:36,355 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,356 [INFO] Processing image 20: WIN_20241207_05_27_22_Pro.jpg
+2024-12-16 21:58:36,377 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,377 [INFO] Processing image 21: WIN_20241207_05_27_25_Pro.jpg
+2024-12-16 21:58:36,397 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,397 [INFO] Processing image 22: WIN_20241207_05_27_27_Pro.jpg
+2024-12-16 21:58:36,417 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,418 [INFO] Processing image 23: WIN_20241207_05_27_28_Pro.jpg
+2024-12-16 21:58:36,436 [INFO] Image decoded successfully.
+2024-12-16 21:58:36,437 [INFO] Initializing OpenCV Stitcher.
+2024-12-16 21:58:36,437 [INFO] Starting stitching process.
+2024-12-16 21:59:42,277 [ERROR] Stitching failed with status 3.
+2024-12-16 21:59:42,292 [INFO] 127.0.0.1 - - [16/Dec/2024 21:59:42] "[35m[1mPOST /stitch HTTP/1.1[0m" 500 -
+2024-12-16 22:16:19,233 [INFO] Starting Flask server.
+2024-12-16 22:16:19,264 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2024-12-16 22:16:19,264 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 22:16:19,265 [INFO]  * Restarting with stat
+2024-12-16 22:16:19,668 [INFO] Starting Flask server.
+2024-12-16 22:16:19,687 [WARNING]  * Debugger is active!
+2024-12-16 22:16:19,691 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 22:19:10,298 [INFO]  * Detected change in 'C:\\Users\\SHEHROZ\\Desktop\\New folder (2)\\server.py', reloading
+2024-12-16 22:19:10,369 [INFO]  * Restarting with stat
+2024-12-16 22:25:04,415 [INFO] Starting Flask server.
+2024-12-16 22:25:04,451 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2024-12-16 22:25:04,451 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 22:25:04,453 [INFO]  * Restarting with stat
+2024-12-16 22:25:04,858 [INFO] Starting Flask server.
+2024-12-16 22:25:04,874 [WARNING]  * Debugger is active!
+2024-12-16 22:25:04,878 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 23:07:13,191 [INFO]  * Detected change in 'C:\\Users\\SHEHROZ\\Desktop\\New folder (2)\\server.py', reloading
+2024-12-16 23:07:13,262 [INFO]  * Restarting with stat
+2024-12-16 23:07:13,876 [INFO] Starting Flask server.
+2024-12-16 23:07:13,902 [WARNING]  * Debugger is active!
+2024-12-16 23:07:13,905 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 23:07:25,775 [INFO] Starting Flask server.
+2024-12-16 23:07:25,807 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2024-12-16 23:07:25,808 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 23:07:25,809 [INFO]  * Restarting with stat
+2024-12-16 23:07:26,220 [INFO] Starting Flask server.
+2024-12-16 23:07:26,237 [WARNING]  * Debugger is active!
+2024-12-16 23:07:26,241 [INFO]  * Debugger PIN: 946-614-528
+2024-12-16 23:08:20,188 [INFO] 192.168.0.101 - - [16/Dec/2024 23:08:20] "GET /test HTTP/1.1" 200 -
+2024-12-16 23:08:20,497 [INFO] 192.168.0.101 - - [16/Dec/2024 23:08:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 23:13:23,223 [INFO] 192.168.0.101 - - [16/Dec/2024 23:13:23] "[31m[1mGET /stitch HTTP/1.1[0m" 405 -
+2024-12-16 23:13:28,924 [INFO] 192.168.0.101 - - [16/Dec/2024 23:13:28] "[31m[1mGET /stitch HTTP/1.1[0m" 405 -
+2024-12-16 23:13:32,651 [INFO] 192.168.0.101 - - [16/Dec/2024 23:13:32] "[31m[1mGET /stitch HTTP/1.1[0m" 405 -
+2024-12-16 23:13:41,735 [INFO] 192.168.0.101 - - [16/Dec/2024 23:13:41] "GET /test HTTP/1.1" 200 -
+2024-12-16 23:18:03,578 [INFO] 192.168.0.118 - - [16/Dec/2024 23:18:03] "[31m[1mGET /stitch HTTP/1.1[0m" 405 -
+2024-12-16 23:18:03,707 [INFO] 192.168.0.118 - - [16/Dec/2024 23:18:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
